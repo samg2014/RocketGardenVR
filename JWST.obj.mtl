@@ -1,0 +1,297 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.187496374)
+
+newmtl blackpaint_lambert1
+Kd 0.2 0.2 0.2
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl Default
+Kd 0.784314 0.784314 0.784314
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl JWST-black-fl
+Kd 0.122179 0.122179 0.122179
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-black-sm
+Kd 0.122179 0.122179 0.122179
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-bottom-box-bot-fl-PURPLEY
+Kd 0.459275 0.314939 0.423194
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/Cone_bump2a.jpg
+map_bump christek-silo/Images/Textures/Cone_bump2a.jpg
+
+newmtl JWST-bottom-box-bot-PURPLEY
+Kd 0.462556 0.317188 0.426217
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/Cone_bump2a.jpg
+map_bump christek-silo/Images/Textures/Cone_bump2a.jpg
+
+newmtl JWST-bottom-box-PURPLEY
+Kd 0.459275 0.314939 0.423194
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-bracket1-fl
+Kd 0.651591 0.651591 0.651591
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-bracket1-sm
+Kd 0.167422 0.167422 0.167422
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-bracket2-fl
+Kd 0.46154 0.46154 0.46154
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-bracket2-sm
+Kd 0.46154 0.46154 0.46154
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-bronze-sm
+Kd 0.778286 0.7402 0.574014
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-FoilBasePanel-2-PURPLEY
+Kd 0.462556 0.317188 0.426217
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/JWST-sat/JWST-BottomPanelTemplates1.tga
+map_bump christek-silo/Images/JWST-sat/JWST-BottomPanelTemplates1.tga
+
+newmtl JWST-FoilLayer1
+Kd 0.715 0.715 0.715
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 87.4225
+illum 2
+bump christek-silo/Images/JWST-sat/JWST-paneltemplate1.tga
+map_bump christek-silo/Images/JWST-sat/JWST-paneltemplate1.tga
+
+newmtl JoinedMaterial_#15
+Kd 0.715 0.715 0.715
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 87.4225
+illum 2
+
+newmtl JWST-FoilLayer4
+Kd 0.715 0.715 0.715
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 87.4225
+illum 2
+bump christek-silo/Images/JWST-sat/JWST-paneltemplate4.tga
+map_bump christek-silo/Images/JWST-sat/JWST-paneltemplate4.tga
+
+newmtl JWST-FoilLayer5-PURPLEY
+Kd 0.459275 0.314939 0.423194
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 87.4225
+illum 2
+
+newmtl JWST-gold-fl
+Kd 0.783108 0.550256 0.155749
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-gold-nofoil-sm
+Kd 0.764706 0.658564 0.26363
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-greyfla-fl
+Kd 0.401396 0.40277 0.406394
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl JWST-instrument-silverfoil-2-sm
+Kd 0.280362 0.280369 0.280365
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-instrument-silverfoil-3-sm
+Kd 0.113367 0.11337 0.113369
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-instrument-silverfoil-sm
+Kd 0.305869 0.305876 0.305872
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+map_bump christek-silo/Images/Textures/bumptestexcerpt4-big.tga
+
+newmtl JWST-mirror-sm
+Kd 0.55 0.55 0.55
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 144
+illum 2
+bump christek-silo/Images/Textures/glassmap1.tga
+map_bump christek-silo/Images/Textures/glassmap1.tga
+
+newmtl JWST-SolarPanel-22
+Kd 0.178046 0.242936 0.597176
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 135.722
+illum 2
+bump christek-silo/Images/Textures/glassmap1.tga
+map_bump christek-silo/Images/Textures/glassmap1.tga
+
+newmtl JWST-silver-fl
+Kd 0.826749 0.828061 0.805188
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-silver-sm
+Kd 0.826749 0.828061 0.805188
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-silver2-fl
+Kd 0.695735 0.696834 0.677592
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-TopReflector
+Kd 0.784314 0.547799 0.157656
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 36
+illum 2
+
+newmtl JWST-TopReflector-fl
+Kd 0.784314 0.54902 0.156863
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl sa_edge_gold
+Kd 0.15 0.1375 0.075
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl JoinedMaterial_#33
+Kd 0.15 0.105 0.12
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl sc_rad_smli1
+Kd 0.0866667 0.08 0.1
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
+newmtl whitepaint_lambert
+Kd 1 1 1
+Ks 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+
