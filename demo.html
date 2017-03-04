@@ -34,6 +34,7 @@
     <a-asset-item id="cubesat-mtl" src="/RocketGardenVR/1RU-GenericCubesat.obj.mtl"></a-asset-item>
     <a-asset-item id="mars-obj" src="/RocketGardenVR/mars.obj"></a-asset-item>
     <a-asset-item id="mars-mtl" src="/RocketGardenVR/mars.mtl"></a-asset-item>
+    <a-asset-item id="mars-dae" src="/RocketGardenVR/mars.dae"></a-asset-item>
     <a-asset-item id="banana" src="banana.dae"></a-asset-item>
   </a-assets>
   <a-entity camera="userHeight: 1.6" look-controls wasd-controls="fly: true"></a-entity>
@@ -46,7 +47,7 @@
   <a-entity grid-cell="x:-1;z:0"></a-entity>
   <a-entity grid-cell="x:0;z:1"></a-entity>
   <a-entity grid-cell="x:0;z:-1">
-    <a-entity obj-model="obj: #mars-obj; mtl: #mars-mtl" position="0 5 0"></a-entity>
+    <a-entity collada-model="#mars-dae" position="0 5 0"></a-entity>
   </a-entity>
 </a-scene>
 
