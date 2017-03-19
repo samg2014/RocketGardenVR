@@ -63,7 +63,27 @@
     <a-entity banana></a-entity>
   </a-entity>
   <a-entity grid-cell="x:0;z:-1">
-    <a-entity banana></a-entity>
+    <a-assets> 
+			<img id="sky" src="sky.jpg">
+			<audio id="apollo11Audio" src="/RocketGardenVR/Apollo11Highlights.mp3" preload="auto"></audio>
+			<a-asset-item id="sV-obj" src="/RocketGardenVR/SaturnV_carbajal.obj"></a-asset-item> 
+			<a-asset-item id="sV-mtl" src="/RocketGardenVR/SaturnV_carbajal.mtl"></a-asset-item> 
+			<a-mixin id="text" text="align: center; width: 16; value: 15"></a-mixin>
+		</a-assets> 
+		
+		<a-entity obj-model="obj: #sV-obj; mtl: #sV-mtl" position="0 1 -25">
+			<a-animation id="launch-animation" attribute="position" begin="go-for-launch" to="0 1000 -25" dur="30000"></a-animation> 
+		</a-entity>
+		<a-text id="cd-text" mixin="text" font="kelsonsans" position=".5 5 -3"></a-text>
+		<a-entity sound="src: #apollo11Audio; autoplay: true"></a-entity>
+		<a-entity rotation="30 0 0">
+			<a-camera userHeight="1.6" zoom="1" >			
+				<a-animation id="launch-animation-camera-zoom" delay="2500" attribute="zoom" begin="go-for-launch" to="4" dur="20000"></a-animation>
+			</a-camera>
+			<a-animation id="launch-animation-camera-tilt" attribute="rotation" begin="go-for-launch" to="90 0 0" dur="20000"></a-animation>
+		</a-entity>
+		<a-sky src="#sky"></a-sky>
+		<a-plane color="#AAA" height="100" width="100" rotation="-90 0 0"></a-plane>
   </a-entity>
 </a-scene>
 
