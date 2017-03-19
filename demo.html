@@ -46,6 +46,12 @@
     <a-asset-item id="mars-obj" src="/RocketGardenVR/mars.obj"></a-asset-item>
     <a-asset-item id="mars-mtl" src="/RocketGardenVR/mars.mtl"></a-asset-item>
     <a-asset-item id="banana" src="banana.dae"></a-asset-item>
+	  
+			<img id="sky" src="sky.jpg">
+			<audio id="apollo11Audio" src="/RocketGardenVR/Apollo11Highlights.mp3" preload="auto"></audio>
+			<a-asset-item id="sV-obj" src="/RocketGardenVR/SaturnV_carbajal.obj"></a-asset-item> 
+			<a-asset-item id="sV-mtl" src="/RocketGardenVR/SaturnV_carbajal.mtl"></a-asset-item> 
+			<a-mixin id="text" text="align: center; width: 16; value: 15"></a-mixin>
   </a-assets>
   <a-entity camera="userHeight: 1.6" look-controls wasd-controls="fly: true"></a-entity>
   
@@ -62,15 +68,7 @@
   <a-entity grid-cell="x:0;z:1">
     <a-entity banana></a-entity>
   </a-entity>
-  <a-entity grid-cell="x:0;z:-1">
-    <a-assets> 
-			<img id="sky" src="sky.jpg">
-			<audio id="apollo11Audio" src="/RocketGardenVR/Apollo11Highlights.mp3" preload="auto"></audio>
-			<a-asset-item id="sV-obj" src="/RocketGardenVR/SaturnV_carbajal.obj"></a-asset-item> 
-			<a-asset-item id="sV-mtl" src="/RocketGardenVR/SaturnV_carbajal.mtl"></a-asset-item> 
-			<a-mixin id="text" text="align: center; width: 16; value: 15"></a-mixin>
-		</a-assets> 
-		
+  <a-entity grid-cell="x:0;z:-1">		
 		<a-entity obj-model="obj: #sV-obj; mtl: #sV-mtl" position="0 1 -25">
 			<a-animation id="launch-animation" attribute="position" begin="go-for-launch" to="0 1000 -25" dur="30000"></a-animation> 
 		</a-entity>
